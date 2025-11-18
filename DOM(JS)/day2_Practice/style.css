@@ -1,0 +1,32 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+}
+
+h1{
+    color: white;
+    margin-left: 88px;
+}
+#one{
+    background-color: wheat;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    border-radius: 5px;
+   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+
+}
+#two{
+    background-color: wheat;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+

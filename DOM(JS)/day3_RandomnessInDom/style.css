@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body  {
+    height: 100%;
+    width:  100%;
+    background-color: black;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    height: 400px;
+    width: 350px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+button{
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px ;
+    margin-left: 90px;
+    cursor: pointer;
+}
