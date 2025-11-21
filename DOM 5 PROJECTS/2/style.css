@@ -9,17 +9,21 @@ html, body{
     height: 100%;
     width: 100%;
     background-color: cadetblue;
-}
-body{
-    display: flex;
+        display: flex;
     justify-content: center;
     align-items: center;
+}
+#main{
+   height: 440px;
+   width: 300px;
+   background-color: bisque;
+   border-radius: 10px;
 }
 #container{
     height: 400px;
     width: 300px;
     background-color: #ffff;
-    border-radius: 10px;
+    border-radius: 5px;
     position: relative;
     overflow: hidden;
 }
@@ -27,14 +31,36 @@ body{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    
   }
 
   #container i  {
-    color: rgb(231, 72, 15);
     font-size: 75px;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50% , -50%) scale(0);
-    transition: transform ease 0.5s;
+    color: transparent;
+    background-image: url(https://minter.io/blog/content/images/2021/08/How-to-use-Colour-Gradients-for-Instagram-Stories-7.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    transform: translate(-50% , -50%) scale(0) rotate(-60deg);
+    transition: all cubic-bezier(.65,1,.77,1.44) 0.8s;
+  }
+
+  
+  #main #footer{
+display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #footer i{
+    font-family: monospace;
+    padding: 10px;
+    font-size: 22px;
+  }
+
+  #footer h2{
+    font-family: monospace;
   }
